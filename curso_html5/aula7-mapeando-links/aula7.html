@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area e map - Mapeando links</title>
+
+    <style>
+        #map {
+            display: block;
+            margin: 10px auto;
+            height: 700px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>Um pouco sobre: area/map</h2>
+
+        <ol type="1">
+            <li>interface HTMLareaElement</li>
+
+            <li>atributos:</li>
+                <ul>alt;</ul>
+                <ul>coords;</ul>
+                <ul>shape;</ul>
+                <ul>target;</ul>
+                <ul>download;</ul>
+                <ul>rel;</ul>
+                <ul>hreflang;</ul>
+                <ul>type;</ul>
+                <ul>referrerpolicy;</ul>
+        </ol>
+        <ol type="1">
+        
+            <li>display: nenhum</li>
+            <li>categoria: fluxo e fraseado</li>
+            <li>contido por: &lt;map&gt;</li>
+            <li>filhos: nenhum</li>
+
+        </ol>
+    </header>
+    
+    <div>
+    <img id="map" src="mapabr.jpg" alt="mapa do brasil" usemap="#mapabrail">
+
+    <map name="mapabrail">
+        <area shape="circle" coords="334,443,324,435,319,416,282,409,264,447,277,454,299,462,335,454" href="https://pt.wikipedia.org/wiki/Paraná" target="_blank" alt="parana">
+
+        <area shape="poly" coords="108,252,25,222,45,253,66,244,66,263,91,263" href="https://pt.wikipedia.org/wiki/Acre" target="_blank" alt="acre">
+    </map>
+    </div>
+
+<pre>
+    <p>shape: <abbr title="retangular">rect</abbr>, <abbr title="circulo">circle</abbr>, <abbr title="poligono">poly</abbr></p>
+</pre>
+
+    <footer>
+        <p>Para rever o video desta aula <a href="https://youtu.be/2wOXCNBfUK8" target="_blank" rel="external" media="screen">click here</a></p>
+    </footer>
+
+</body>
+</html>
