@@ -5,14 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article e nova semântica do HTML</title>
+    <style>
+        article {
+            padding: 15px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #eee;
+            margin-bottom: 10px;
+
+        }
+        article h1,p {
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h2>Um pouco sobre: Article</h2>
+    <header>
+    <h1>Um pouco sobre: Article</h1>
     <ol>
         <li>display: block</li>
         <li>categoria: fluxo e seção</li>
         <li>contido: fluxo</li>
         <li>filhos: fluxo</li>
     </ol>
+    
+    <p>Article != div. É um tipo de div independente no documento (isso quer dizer que se pode ter quantas quiser, cada uma representando uma área do documento, um assunto expecifico ou alguma área expessifica do nosso documento. Com conteudos diferentes de cabeçalho(header), navegação() e rodapé(footer))</p>
+    <p>Ele pode ser um: post dentro de um forum, um artigo de um jornal/revista, um comentario ou qualquer coisa. </p>
+
+    </header>
+
+    <article>
+        <h1>CFBCursos</h1>
+        <p>canal de cursos gratuitos no YT</p>
+    </article>
+
+    <article>
+        <h1>exemplo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolor in mollitia quia dolores accusantium rem ipsum consectetur magnam exercitationem sed dignissimos iure nisi minima laboriosam cupiditate omnis, consequatur ut!</p>
+    </article>
+
+    <footer>
+        <p>Para ver o video sobre <mark style="background-color: chartreuse;">article</mark> <a href="https://www.youtube.com/watch?v=ePUD7uBdV9o&list=PLx4x_zx8csUiVHRDO_7qhOaeNrrQ5uU8c&index=11" target="_blank" rel="external">click here</a></p>
+    </footer>
+
 </body>
 </html>
