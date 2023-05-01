@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio - musica e sons na página</title>
+    <style>
+        main {
+            background-color: white;
+            width: 900px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        article {
+            padding: 10px;
+            background-color: rgba(155, 154, 154, 0.459);
+            margin-bottom: 10px;
+        }
+        article p {text-align: center;}
+        article pre {text-align: center;}
+    </style>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <h1>Algumas coisas sobre: audio</h1>
+        </header>
+
+        <article>
+            <p>Para a tag audio, tem um atributo chamado <mark style="background-color: chartreuse;">autoplay</mark> que trabalha como boolean (true or false) talvez colocando desta forma ele funcione: <pre>&lt;audio autoplay="true"&gt;</pre></p>
+            <p>Alguns atributos q tbm são boolean: autoplay, loop, muted, controls.</p>
+        </article>
+
+        <aside>
+            
+        <audio src="Liamsi - MON LOVE OHO (Lyrics) ｜ la famille le s.mp3" autoplay controls muted loop>
+                <p>Seu browser não suporta audio</p> <!--caso um browser n suporte o audio a mensagem aparece-->
+            </audio>
+
+        </aside>
+
+        <footer>
+            <p>Para ver o video sobre esta pagina <a href="https://www.youtube.com/watch?v=seFNHyf_3ps&list=PLx4x_zx8csUiVHRDO_7qhOaeNrrQ5uU8c&index=13" target="_blank" rel="external">click here</a></p>
+        </footer>
+    </main>
 </body>
 </html>
